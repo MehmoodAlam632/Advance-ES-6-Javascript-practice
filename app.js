@@ -92,7 +92,7 @@
 // };
 // foo(450, arr);
 
-const arr = [10, 20, 30, 40, 458, 2465, 3, 56];
+// const arr = [10, 20, 30, 40, 458, 2465,  3, 56];
 // debugger
 // const func = (num, ...props) => {
 //   sum = 0;
@@ -111,3 +111,37 @@ const arr = [10, 20, 30, 40, 458, 2465, 3, 56];
 //   console.log(sum);
 // };
 // foo(...arr);
+
+// const numbers = [10, 20, 450, 40, 410];
+// const foo = (name, ...props) => {
+//   console.log(props);
+// };
+// foo("Mehmood Alam", ...numbers);
+
+//CONCAT
+// const arr1 = [10, 20, 30, 40];
+// const arr2 = [60, 80, 70, 20];
+// const arr3 = arr1.concat(arr2);
+// console.log(arr3);
+
+// const personNames = ["Kashif", "Farah", "Naved", "Hashim Amla"];
+// const nums = [60, 80, 70, 20];
+// const newArray = [...personNames, ...nums]
+// // console.log(newArray);
+
+// const names = {
+//   city: "Karachi",
+//   country: "Pakistan",
+//   district: "West",
+// };
+// const student = {
+//   name: "Mehmood Alam",
+//   age: 29,
+//   qualification: "B.com",
+//   religion: "Islam",
+// };
+// const newObj = {...student, ...names};
+// console.log(newObj);
+// const arr3 = personNames.concat(student);
+// console.log(arr3[4]);
+// console.log(student);
